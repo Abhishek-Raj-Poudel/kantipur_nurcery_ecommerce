@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  @apply text-6xl font-bold font-mono;
+}
+h2 {
+  @apply text-2xl font-bold font-mono;
+}
+
+input {
+  @apply p-2 rounded-lg max-w-sm w-full;
+}
+
+button {
+  @apply py-2 px-6 font-bold w-full max-w-sm bg-slate-500 hover:bg-slate-400 text-slate-50 rounded-lg transition-all duration-150;
+}

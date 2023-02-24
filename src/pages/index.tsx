@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_API_KEY);
   return (
     <>
       <Head>
